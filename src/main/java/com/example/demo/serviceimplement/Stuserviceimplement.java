@@ -1,7 +1,5 @@
 package com.example.demo.serviceimplement;
 import org.springframework.stereotype.Service;
-
-import org.springframework.stereotype.Service;
 import com.example.demo.service.Stuservice;
 import com.example.demo.entity.Stuentity;
 import com.example.demo.repository.Sturepository;
