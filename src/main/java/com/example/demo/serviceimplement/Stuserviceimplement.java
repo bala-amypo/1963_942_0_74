@@ -1,7 +1,8 @@
 package com.example.demo.serviceimplement;
 
 import org.springframework.stereotype.Service;
-
-public interface Stuservice{
+import com.example.demo.service.Stuservice;
+@Service
+public class Stuserviceimplement implements  {
 
 }
