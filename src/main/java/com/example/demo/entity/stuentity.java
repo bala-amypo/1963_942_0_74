@@ -8,8 +8,8 @@ import jakarta.persistence.Id;
 @Entity
 public class Stuentity{
     @Id  //indicates unique person
-    @GeneratedValue(stragy=GenerationType.IDENTITY) //puthu puthu users ku athuvae oru identity kudukum(inbuilt) and auto is default
-    private Long id; //this is primary key
+    @GeneratedValue(stragy=GenerationType.IDENTITY) //identity puthu puthu users ku athuvae oru identity kudukum(inbuilt sequential order) and auto is (default no sequential)
+    private Long id; //this is primary key because mela @id
     private String name;
     private String email;
     private float cgpa;
