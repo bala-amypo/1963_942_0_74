@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Stuentity{
-    @Id
+    @Id  //indicates unique person
     @GeneratedValue(stragy=GenerationType.IDENTITY)
     private Long id;
     private String name;
