@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.example.demo.serviceimplement;
 
 import org.springframework.stereotype.Service;
-@Service
+
 public interface Stuservice{
 
 }
