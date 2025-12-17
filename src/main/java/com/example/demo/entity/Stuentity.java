@@ -49,7 +49,8 @@ public class Stuentity{
         this.cgpa=cgpa;
 
     }
+    //default Constructors
     public Stuentity(){
 
-}
+    }
 }
