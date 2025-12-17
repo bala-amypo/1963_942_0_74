@@ -6,8 +6,10 @@ import com.example.demo.entity.Stuentity;
 @Service
 public class Stuserviceimplement implements Stuservice{
    private final Sturepository sturepository;
-   public Stuserviceimplement(Sturepository sturepository)
-   Stuentity saveStudent(Stuentity stuentity){
-
+   public Stuserviceimplement(Sturepository sturepository){
+    this.sturepository=sturepository;
+   }
+   public Stuentity saveStudent(Stuentity stuentity){
+     return sturepository.save(Stuentity);
    }
 }
