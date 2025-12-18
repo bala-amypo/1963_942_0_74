@@ -12,7 +12,7 @@ import com.example.demo.service.Stuservice;
 public class Stucontroller{
   @Autowired
   Stuservice stuservice;
-  @postMapping("/postdata")
+  @PostMapping("/save")
   public Stuentity postdata(@RequestBody Stuentity stuentity){
     return stuservice.saveStudent(stuentity);
   }
